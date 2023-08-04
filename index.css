@@ -29,6 +29,11 @@ input {
     margin: 10px 0;
 }
 
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
 button {
     color: #FDFDFD;
     background-color: #AC485A;
@@ -56,4 +61,9 @@ ul li {
     flex-grow: 1;
     text-align: center;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
 }
